@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>D:\Nguyễn Đức Trọng C#\WPF\WebBanHang\Properties\PublishProfiles\FolderProfile1.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Presentation_Layer\Brand\addBrand.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Brand\Brand.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Brand\editBrand.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Category\addCategory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Category\Category.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Category\editCategory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Code\addCode.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Code\Code.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Code\editCode.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\CustomMessageBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Account\Panel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Order\Order.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Product\addProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Product\editProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation_Layer\Product\Product.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Brand\addBrand.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Brand\Brand.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Brand\editBrand.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Category\addCategory.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Category\Category.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Category\editCategory.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Code\addCode.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Code\Code.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Code\editCode.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\CustomMessageBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\LoginView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Account\Panel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Order\Order.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Product\addProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Product\editProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation_Layer\Product\Product.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

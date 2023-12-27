@@ -1,0 +1,16 @@
+C:\Users\TrongMin\Desktop\C#\WebBanHang.exe
+C:\Users\TrongMin\Desktop\C#\WebBanHang.dll
+C:\Users\TrongMin\Desktop\C#\WebBanHang.deps.json
+C:\Users\TrongMin\Desktop\C#\WebBanHang.runtimeconfig.json
+C:\Users\TrongMin\Desktop\C#\WebBanHang.pdb
+C:\Users\TrongMin\Desktop\C#\MahApps.Metro.IconPacks.Core.dll
+C:\Users\TrongMin\Desktop\C#\MahApps.Metro.IconPacks.Material.dll
+C:\Users\TrongMin\Desktop\C#\MaterialDesignColors.dll
+C:\Users\TrongMin\Desktop\C#\MaterialDesignThemes.Wpf.dll
+C:\Users\TrongMin\Desktop\C#\Microsoft.Xaml.Behaviors.dll
+C:\Users\TrongMin\Desktop\C#\System.Data.SqlClient.dll
+C:\Users\TrongMin\Desktop\C#\runtimes\win-arm64\native\sni.dll
+C:\Users\TrongMin\Desktop\C#\runtimes\win-x64\native\sni.dll
+C:\Users\TrongMin\Desktop\C#\runtimes\win-x86\native\sni.dll
+C:\Users\TrongMin\Desktop\C#\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\TrongMin\Desktop\C#\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

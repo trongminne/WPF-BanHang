@@ -1,0 +1,20 @@
+﻿WebBanHang
+
+
+winexe
+C#
+.cs
+D:\Nguyễn Đức Trọng C#\WPF\WebBanHang\obj\Release\net7.0-windows\
+WebBanHang
+none
+false
+TRACE;RELEASE;NET;NET7_0;NETCOREAPP
+D:\Nguyễn Đức Trọng C#\WPF\WebBanHang\App.xaml
+17-1930372784
+12096179246
+37-1620429599
+204356893543
+MainWindow.xaml;Presentation_Layer\Account\Panel.xaml;Presentation_Layer\Brand\addBrand.xaml;Presentation_Layer\Brand\Brand.xaml;Presentation_Layer\Brand\editBrand.xaml;Presentation_Layer\Category\addCategory.xaml;Presentation_Layer\Category\Category.xaml;Presentation_Layer\Category\editCategory.xaml;Presentation_Layer\Code\addCode.xaml;Presentation_Layer\Code\Code.xaml;Presentation_Layer\Code\editCode.xaml;Presentation_Layer\CustomMessageBox.xaml;Presentation_Layer\LoginView.xaml;Presentation_Layer\Order\Order.xaml;Presentation_Layer\Product\addProduct.xaml;Presentation_Layer\Product\editProduct.xaml;Presentation_Layer\Product\Product.xaml;
+
+False
+

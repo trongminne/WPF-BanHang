@@ -1,0 +1,276 @@
+﻿<Window x:Class="WebBanHang.Presentation_Layer.Product.editProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:WebBanHang.Presentation_Layer.Product"
+        mc:Ignorable="d"
+        Title="addProduct" Height="645" Width="875"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        ResizeMode="NoResize"
+        FontSize="18"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme BaseTheme="Light" PrimaryColor="Teal" SecondaryColor="Lime"/>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid Margin="20">
+        <Grid.Effect>
+            <DropShadowEffect BlurRadius="30"
+                              ShadowDepth="1"
+                              Opacity="0.4"/>
+        </Grid.Effect>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1.22*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--bên trái-->
+        <Border Background="#623ed0"
+                CornerRadius="10 0 0 10"
+                ClipToBounds="True">
+
+            <Border.Clip>
+                <RectangleGeometry Rect="0,0,400,605"
+                                   RadiusX="10"
+                                   RadiusY="10"/>
+            </Border.Clip>
+
+            <Grid>
+                <!--tiêu đề-->
+                <StackPanel Margin="0 120 0 0"
+                        VerticalAlignment="Top">
+
+                    <TextBlock FontSize="46"
+                           FontWeight="Light"
+                           Text="Sửa"
+                           Foreground="#ffffff"
+                           TextAlignment="Center"/>
+
+                    <TextBlock FontSize="21"
+                           FontWeight="Light"
+                           Text="Sản phẩm"
+                           Foreground="#d1f2eb"
+                           Margin="0 15 0 3"
+                           TextAlignment="Center"/>
+
+
+                </StackPanel>
+
+                <!--ellips-->
+                <Ellipse Width="500"
+                     Height="500"
+                     VerticalAlignment="Bottom"
+                     Fill="#5eccb4"
+                     Margin="50 0 0 -200"
+                     Opacity="0.6"/>
+
+                <Ellipse Width="300"
+                     Height="300"
+                     VerticalAlignment="Bottom"
+                     Fill="#5eccb4"
+                     Margin="-450 0 0 30"
+                     Opacity="0.3"/>
+
+                <Ellipse Width="400"
+                     Height="400"
+                     VerticalAlignment="Bottom"
+                     Fill="#5eccb4"
+                     Margin="-320 0 0 -120"
+                     Opacity="0.3"/>
+
+                <Ellipse Width="250"
+                     Height="250"
+                     VerticalAlignment="Bottom"
+                     Fill="#5bc9b2"
+                     Margin="-380 0 0 -120"/>
+
+                <Ellipse Width="400"
+                     Height="400"
+                     VerticalAlignment="Bottom"
+                     Fill="#5eccb4"
+                     Margin="280 0 0 -70"
+                     Opacity="0.8"/>
+
+                <!--icon-->
+                <Border Background="#fdfdfd"
+                        CornerRadius="100"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"
+                        Height="110"
+                        Width="110"
+                        Margin="0 0 0 80">
+
+                    <Grid>
+                        <!--màu hình tròn-->
+                        <Ellipse Width="100"
+                                 Height="100"
+                                 StrokeThickness="4">
+                            <Ellipse.Stroke>
+                                <LinearGradientBrush>
+                                    <GradientStop Color="#e27c53"
+                                                  Offset="0.15"/>
+
+                                    <GradientStop Color="#dca530"
+                                                  Offset="0.2"/>
+
+                                    <GradientStop Color="#8bb356"
+                                                  Offset="0.3"/>
+
+                                    <GradientStop Color="#3bb799"
+                                                  Offset="0.4"/>
+
+                                    <GradientStop Color="#67cbee"
+                                                  Offset="0.5"/>
+
+                                    <GradientStop Color="#3699db"
+                                                  Offset="0.6"/>
+
+                                    <GradientStop Color="#9264aa"
+                                                  Offset="0.8"/>
+
+                                    <GradientStop Color="#6e94de"
+                                                  Offset="0.9"/>
+
+                                </LinearGradientBrush>
+                            </Ellipse.Stroke>
+                        </Ellipse>
+
+                        <materialDesign:PackIcon Kind="Tick"
+                                                 Width="70"
+                                                 Height="70"
+                                                 HorizontalAlignment="Center"
+                                                 VerticalAlignment="Center">
+                            <materialDesign:PackIcon.Foreground>
+                                <!--màu  icon-->
+                                <LinearGradientBrush StartPoint="0,1">
+                                    <GradientStop Color="#e27c53"
+                                                  Offset="0.1"/>
+
+                                    <GradientStop Color="#dca530"
+                                                  Offset="0.3"/>
+
+                                    <GradientStop Color="#3bb799"
+                                                  Offset="0.5"/>
+
+                                    <GradientStop Color="#67cbee"
+                                                  Offset="0.7"/>
+
+                                    <GradientStop Color="#3699db"
+                                                  Offset="0.8"/>
+
+                                </LinearGradientBrush>
+                            </materialDesign:PackIcon.Foreground>
+                        </materialDesign:PackIcon>
+
+                    </Grid>
+                </Border>
+
+
+            </Grid>
+
+        </Border>
+        <!--bên phải-->
+        <Border Grid.Column="1"
+                        Background="#ffffff"
+                        CornerRadius="0 10 10 0"
+                        MouseDown="Border_MoseDown">
+
+            <Grid>
+                <!--close-->
+                <materialDesign:PackIcon Kind="Close"
+                                                 VerticalAlignment="Top"
+                                                 Width="20"
+                                                 Height="20"
+                                                 Foreground="Red"
+                                                 HorizontalAlignment="Right"
+                                                 Margin="0 13 14 0" MouseDown="Colse_MoseDown" />
+
+
+                <!--input-->
+                <StackPanel VerticalAlignment="Center"
+                                    Margin="75 0">
+                    <TextBox x:Name="EditProductName"
+                        Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                                     Text=""
+                                     materialDesign:HintAssist.Hint="Nhập tên sản phẩm"
+                                     materialDesign:HintAssist.FloatingOffset="0, -20"
+                                     BorderBrush="#c5c8cc"
+                                     BorderThickness="0 0 0 1.5"/>
+
+                    <ComboBox x:Name="EditProductCategoryId" ItemsSource="{Binding Categories}" Margin="0 30 0 0"
+          Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+          SelectedValuePath="Id"
+          DisplayMemberPath="Name"
+          SelectedValue="{Binding SelectedCategoryId, Mode=TwoWay}"
+          materialDesign:HintAssist.Hint="Chọn danh mục"
+          materialDesign:HintAssist.FloatingOffset="0, -20"
+          BorderBrush="#c5c8cc"
+          BorderThickness="0 0 0 1.5"/>
+
+                    <ComboBox x:Name="EditProductBrandId" ItemsSource="{Binding Brands}" Margin="0 30 0 0"
+          Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+          SelectedValuePath="Id"
+          DisplayMemberPath="Name"
+          SelectedValue="{Binding SelectedBrandId, Mode=TwoWay}"
+          materialDesign:HintAssist.Hint="Chọn thương hiệu"
+          materialDesign:HintAssist.FloatingOffset="0, -20"
+          BorderBrush="#c5c8cc"
+          BorderThickness="0 0 0 1.5"/>
+
+
+                    <TextBox x:Name="EditProductPrice" Margin=" 0 30 0 0"
+                        Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                                     Text=""
+                                     materialDesign:HintAssist.Hint="Nhập giá"
+                                     materialDesign:HintAssist.FloatingOffset="0, -20"
+                                     BorderBrush="#c5c8cc"
+                                     BorderThickness="0 0 0 1.5"/>
+
+                    <TextBox x:Name="EditProductSale" Margin=" 0 30 0 0"
+                        Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                                     Text=""
+                                     materialDesign:HintAssist.Hint="Nhập khuyến mãi"
+                                     materialDesign:HintAssist.FloatingOffset="0, -20"
+                                     BorderBrush="#c5c8cc"
+                                     BorderThickness="0 0 0 1.5"/>
+
+                    <TextBox x:Name="EditProductQuantity" Margin=" 0 30 0 0"
+                        Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                                     Text=""
+                                     materialDesign:HintAssist.Hint="Nhập số lượng"
+                                     materialDesign:HintAssist.FloatingOffset="0, -20"
+                                     BorderBrush="#c5c8cc"
+                                     BorderThickness="0 0 0 1.5"/>
+                    <TextBox x:Name="EditProductId" 
+             Text="{Binding ProductId, Mode=OneWayToSource, RelativeSource={RelativeSource AncestorType={x:Type local:editProduct}}}"
+             Visibility="Hidden" />
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Lưu" 
+                                        Background="#623ed0"
+                                        Foreground="#ffffff"
+                                        FontSize="18"
+                                        Width="120"
+                                        Height="45"
+                                 Click="SaveButton_Click"
+                                        materialDesign:ButtonAssist.CornerRadius="22"/>
+                    </StackPanel>
+
+                </StackPanel>
+
+            </Grid>
+        </Border>
+
+    </Grid>
+</Window>
